@@ -73,8 +73,8 @@ const Navbar = () => {
 
 
                   {/* responsiveness */}
-          <div onClick={toggleNav} className='md:hidden absolute top-5 right-5 border-2 rounded-lg border-white/70 p-2 z-50 text-white/60 '>
-              {nav ? <AiOutlineClose size={30} /> : <AiOutlineMenu size={30} />}
+          <div onClick={toggleNav} className='md:hidden absolute top-5 right-5  p-2 z-50 text-white '>
+              {nav ? <AiOutlineClose size={28} /> : <AiOutlineMenu size={28} />}
           </div>
 
              <motion.div
