@@ -55,7 +55,7 @@ export  function SparklesPreview() {
 <div className="flex justify-center items-center">
   <button
     className="group flex justify-center p-2 rounded-md drop-shadow-xl bg-gradient-to-r from-gray-950 to-black text-white font-semibold transition-all duration-500"
-    href="https://github.com/kojoskillz"
+    // href="https://github.com/kojoskillz"
   >
     <svg
       xmlns="http://www.w3.org/2000/svg"
