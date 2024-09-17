@@ -44,7 +44,7 @@ const Navbar = () => {
 
 
     return (
-            <div className='text-white/80 pt-6 bg-black '>
+            <div className='text-white/80 font-sans pt-6 bg-black '>
                   <div className='hidden md:flex items-center px-4 mx-auto max-w-[500px]'>
                       <ul className='flex flex-row p-3 space-x-8 '>
                           {navLinks.map((link, index) => (
