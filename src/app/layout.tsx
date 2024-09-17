@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+import {Inter, Permanent_Marker} from "next/font/google";
 import "./globals.css";
 
 
-
+const inter = Inter({subsets: ["latin"]});
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -14,6 +15,11 @@ const geistMono = localFont({
   src: "./fonts/GeistMonoVF.woff",
   variable: "--font-geist-mono",
   weight: "500 900",
+});
+const skranji = Permanent_Marker({
+  weight: ["400",],
+  subsets:["latin"]
+  
 });
 
 export const metadata: Metadata = {
@@ -33,7 +39,7 @@ export default function RootLayout({
       </head>
 
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${skranji.className} antialiased`}
       >
         {children}
 
