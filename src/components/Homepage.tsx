@@ -15,7 +15,7 @@ export  function SparklesPreview() {
       <h1 className="md:text-7xl  xs:text:[10rem] text-[4.5rem] tracking-tighter leading-[4rem]  text-wrap sm:font-extrabold xs:font-extrabold md:font-extrabold lg:font-extrabold  lg:text-9xl font-extrabold text-center  bg-gradient-to-r from-[#00aeff] to-[#51e2ff]  inline-block  text-transparent bg-clip-text  focus-in-contract">
         KWADWO <br /> NYARKO
       </h1>
-      <h1 className="md:text-3xl  sm:text-[10rem] font-light text-[19px] text-wrap text-center text-gray-300  relative z-20 focus-in-expand-fwd ">
+      <h1 className="md:text-3xl font-sans  sm:text-[10rem] font-light text-[19px] text-wrap text-center text-gray-300  relative z-20 focus-in-expand-fwd ">
            I'm  a   <span className='inset-x-40 text-cyan-300 font-medium '><em><b>software engineer</b>  </em></span> dedicated to bridging the gap between imagination and reality.<br />
            With code as my canvas, I paint vibrant<br /> solutions that transform visions into tangible results.
       </h1>
