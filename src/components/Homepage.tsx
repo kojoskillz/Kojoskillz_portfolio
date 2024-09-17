@@ -94,7 +94,7 @@ export  function SparklesPreview() {
       fill="currentColor"
     ></path>
   </svg>
-  <span className:"font-sans">Get in touch</span>
+  <span className="font-sans">Get in touch</span>
 </button>
 
 
