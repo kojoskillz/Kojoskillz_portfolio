@@ -44,11 +44,11 @@ const Navbar = () => {
 
 
     return (
-            <div className='text-white/80 font-sans pt-6 bg-black '>
+            <div className='text-white/80 pt-6 font-sans bg-black '>
                   <div className='hidden md:flex items-center px-4 mx-auto max-w-[500px]'>
-                      <ul className='flex flex-row p-3 space-x-8 '>
+                      <ul className='flex flex-row p-3 space-x-8'>
                           {navLinks.map((link, index) => (
-                            <li key={index} >
+                            <li key={index} className='duration-300 ease-in hover:text-cyan-500 transition-all  '>
                                 <Link href={link.path}>
                                    {link.title}
                                 </Link>
@@ -61,7 +61,7 @@ const Navbar = () => {
                                     Contact Me
                                </h1>
                                  <div className='relative'>
-                                    <div className='absolute w-2/3 h-1 transition-all duration-300 ease-out bg-orange-300 rounded-full
+                                    <div className='absolute w-2/3 h-1 transition-all duration-300 ease-out bg-cyan-500  rounded-full
                                                     group-hover:w-full '>
                                     </div>
                                  </div>
@@ -73,7 +73,7 @@ const Navbar = () => {
 
 
                   {/* responsiveness */}
-          <div onClick={toggleNav} className='md:hidden font-sans absolute top-5 right-5  p-2 z-50 text-white '>
+          <div onClick={toggleNav} className='md:hidden font-sans  absolute top-5 right-5  p-2 z-50 text-white '>
               {nav ? <AiOutlineClose size={28} /> : <AiOutlineMenu size={28} />}
           </div>
 
@@ -83,9 +83,9 @@ const Navbar = () => {
                variants={menuVariants}
                className="fixed left-0 top-0 w-full z-40 bg-black/90"
              >
-                <ul className='text-4xl font-semibold my-24 text-center space-y-6 '>
+                <ul className='text-4xl  font-semibold my-24 text-center space-y-6 '>
                     {navLinks.map((link, index) => (
-                        <li key={index}>
+                        <li key={index} className='font-sans duration-300 ease-in hover:text-cyan-500 transition-all'>
                             <Link href={link.path} onClick={closeNav}>
                                 {link.title}
                             </Link>
@@ -98,7 +98,7 @@ const Navbar = () => {
                                     Contact Me
                                </h1>
                                  <div className='relative'>
-                                    <div className='absolute w-16 place-content-center flex ml-[6rem] h-1 transition-all duration-300 ease-out bg-orange-300 rounded-full
+                                    <div className='absolute w-16 place-content-center flex ml-[6rem] h-1 transition-all duration-300 ease-out bg-cyan-500 rounded-full
                                                     group-hover:w-[12rem] '>
                                     </div>
                                  </div>
