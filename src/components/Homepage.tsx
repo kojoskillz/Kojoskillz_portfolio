@@ -7,8 +7,8 @@ export  function SparklesPreview() {
   return (
     <div className="h-[50rem] w-full pt-20 bg-black flex flex-col items-center justify-center overflow-hidden rounded-none">
             <div>
-               <h1 className=' focus-in-contract text-wrap stroke  text-[2.5rem] inset-20 font-extrabold  '>
-                   Hey there, meet
+               <h1 className=' focus-in-contract text-wrap stroke font-sans   text-[2.5rem] inset-20 font-extrabold  '>
+                   Hey there, meet 
                </h1>
             </div>
         
