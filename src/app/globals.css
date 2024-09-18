@@ -84,13 +84,12 @@ body{
 
 
 /* From Uiverse.io by Gerente-S4V1T4R */ 
-/* .container {
-  --background: linear-gradient(to left, #880505 0%, #f36b11 100%);
-  width: 190px;
-  height: 254px;
+ .container {
+  --background: linear-gradient(to left, #9d9d9d 0%, #0e0e0ef4 100%);
+  width: 290px;
+  height: 354px;
   padding: 4px;
   border-radius: 5px;
-  overflow: visible;
   display: flex;
   align-items: center;
   background: var(--background);
@@ -99,9 +98,9 @@ body{
 
 .container .box {
   position: relative;
-  width: 190px;
-  height: 244px;
-  background: #1b1b1b;
+  width: 290px;
+  height: 344px;
+  background: #141414;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -141,7 +140,7 @@ body{
   width: 50px;
   height: 50px;
   -webkit-box-shadow: 0 0 0 4px #e6e6e6,
-    0 0 0 6px rgb(212, 10, 10);
+    0 0 0 6px rgb(255, 249, 249);
   box-shadow: 0 0 0 4px #e6e6e6,
     0 0 0 6px rgb(212, 10, 10);
   display: -webkit-box;
@@ -185,9 +184,9 @@ body{
   content: '';
   position: absolute;
   inset: 60px -10px;
-  border-left: 4px solid #880505;
+  border-left: 4px solid #767676;
   z-index: -1;
-  border-right: 4px solid #aa551d;
+  border-right: 4px solid #494949;
   z-index: -1;
   -webkit-transform: skew(15deg);
   -ms-transform: skew(15deg);
@@ -205,7 +204,7 @@ body{
 
 .container .box .content {
   border-radius: 50%;
-} */
+} 
 
 
 /* From Uiverse.io by adamgiebl */ 
