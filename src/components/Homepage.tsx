@@ -130,16 +130,4 @@ export  function SparklesPreview() {
 
 
 
-
-
-// /* From Uiverse.io by Gerente-S4V1T4R */ 
-// <div class="container">
-//   <div class="box">
-//     <div class="content">
-      
-//     </div>
-//   </div>
-// </div>
-
-
 export default SparklesPreview
