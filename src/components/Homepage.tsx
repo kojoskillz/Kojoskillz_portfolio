@@ -12,7 +12,7 @@ export  function SparklesPreview() {
                </h1>
             </div>
         
-      <h1 className="md:text-7xl Skranji xs:text:[10rem] text-[4.5rem] tracking-tighter leading-[4rem]  text-wrap sm:font-extrabold xs:font-extrabold md:font-extrabold lg:font-extrabold  lg:text-9xl font-extrabold text-center  bg-gradient-to-r from-[#00aeff] to-[#51e2ff]  inline-block  text-transparent bg-clip-text  focus-in-contract">
+      <h1 className="md:text-7xl permanent_marker xs:text:[10rem] text-[4.5rem] tracking-tighter leading-[4rem]  text-wrap sm:font-extrabold xs:font-extrabold md:font-extrabold lg:font-extrabold  lg:text-9xl font-extrabold text-center  bg-gradient-to-r from-[#00aeff] to-[#51e2ff]  inline-block  text-transparent bg-clip-text  focus-in-contract">
         KWADWO <br /> NYARKO
       </h1>
       <h1 className="md:text-3xl font-sans  sm:text-[10rem] font-light text-[19px] text-wrap text-center text-gray-300  relative z-20 focus-in-expand-fwd ">
