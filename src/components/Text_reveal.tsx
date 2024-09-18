@@ -1,28 +1,36 @@
-import NumberTicker from "./magicui/number-ticker";
+import TextReveal from "./magicui/text-reveal";
+import img1 from "../app/assets/img.png"
+import Image from 'next/image';
 
-const  NumberTickerDemo = () => {
+
+export  default function TextRevealDemo() {
   return (
-    <div className="mb-10 mt-16">
-    <p className="whitespace-pre-wrap text-8xl m-auto  lg:flex md:grid sm:grid xs:grid grid place-content-center overflow-x-hidden overflow-y-hidden gap-10 font-medium tracking-tighter bg-black   text-white dark:text-white">
-     <div className="border-2 border-white md:w-[20rem] lg:w-[20rem]  grid place-content-center p-5 rounded-3xl  border-solid ">
-         <NumberTicker value={165}  />
-         <h1 className="text-white/80 font-sans text-[16px]  text-center tracking-wide font-light" >Projects Completed</h1>
-     </div>
+    <div className="mt-[6rem] lg:mt-[20rem] md:-mt-[10rem] sm:-mt-[10rem] xs:-mt-[10rem] grid lg:flex md:grid sm:grid text-xs:grid">
 
-     <div className="border-2 border-white  md:w-[20rem] lg:w-[20rem]  grid place-content-center p-5 rounded-3xl  border-solid ">
-         <NumberTicker value={55} />
-         <h1 className="text-white/80 font-sans text-[16px]  text-center tracking-wide font-light" >Awards</h1>
-     </div>
-
-     <div className="border-2 border-white md:w-[20rem] lg:w-[20rem]  grid place-content-center   p-5 rounded-3xl  border-solid ">
-         <NumberTicker value={4253} />
-         <h1 className="text-white/80 font-sans text-[16px] text-center tracking-wide font-light" >Codes Committed and  <br /> still counting...</h1>
-     </div>
-    </p>
-    
+    <div className='overflow-y-hidden  mb-[10rem] '>
+    <div className="container">
+    <div className="box">
+        <div className="content">
+          <Image 
+            src={img1}
+            alt="my_profile_pic"
+            width="900"
+            height="900"
+            sizes="fit-content"
+          />
+        </div>
     </div>
-   
-  );
-};
+    </div>
 
-export default NumberTickerDemo;
+</div>
+    <div className="z-10 grid tracking-tighter min-h-[6rem] -mt-[10rem] lg:text-[10px] md:text-sm sm:text-base items-center font-light justify-center font-sans bg-black dark:bg-black">
+       
+      <TextReveal text="Hi, I'm Kwadwo Nyarko based in Ghana, a software engineer extraordinaire! 
+                        Websites are my jam I conjure up digital magic one line of code at a time
+                        When I'm not geeking out over code, I'm crafting websites that makes you go WOW!
+                         " />
+    </div>
+            
+    </div>
+  );
+}
