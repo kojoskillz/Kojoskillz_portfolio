@@ -17,6 +17,19 @@ body{
     background-color: black;
 }
 
+:root {
+  --font-permanent_marker: "Permanent Marker", cursive;
+  --font-paytone_one:  "Paytone One", system-ui;
+}
+
+.permanent_marker {
+  font-family: var(--font-permanent_marker);
+}
+
+.paytone_one {
+  font-family: var(--font-paytone_one);
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
