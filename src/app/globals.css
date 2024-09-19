@@ -88,12 +88,12 @@ body{
 }
 
 
-
-.skranji-regular {
-  font-family: "Skranji", system-ui;
-  font-weight: 400;
-  font-style: normal;
+.img1{
+  width:15rem;
+  height: 33rem;
+  object-fit:cover;
 }
+
 
 
 /* From Uiverse.io by Gerente-S4V1T4R */ 
