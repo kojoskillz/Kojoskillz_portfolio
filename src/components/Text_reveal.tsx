@@ -17,13 +17,15 @@ export  default function TextRevealDemo() {
             width="900"
             height="900"
             sizes="fit-content"
+            className="img1"
           />
         </div>
     </div>
     </div>
 
 </div>
-    <div className="z-10 grid tracking-tighter min-h-[6rem] -mt-[10rem] lg:text-[10px] md:text-sm sm:text-base items-center font-light justify-center font-sans bg-black dark:bg-black">
+
+    <div className="z-10 grid xl:tracking-tighter lg:tracking-tighter md:tracking-tigjter tracking-tighter min-h-[6rem] -mt-[10rem] lg:text-[10px] md:text-sm sm:text-base items-center font-light justify-center font-sans bg-black dark:bg-black">
        
       <TextReveal text="Hi, I'm Kwadwo Nyarko based in Ghana, a software engineer extraordinaire! 
                         Websites are my jam I conjure up digital magic one line of code at a time
@@ -31,6 +33,6 @@ export  default function TextRevealDemo() {
                          " />
     </div>
             
-    </div>
+</div>
   );
 }
