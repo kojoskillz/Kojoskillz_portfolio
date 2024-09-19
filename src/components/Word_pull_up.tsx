@@ -3,8 +3,8 @@ import WordPullUp from "./magicui/word-pull-up";
 export default function WordPullUpDemo() {
   return (
     <WordPullUp
-      className="text-[55px] mt-32  text-wrap font-extrabold font-sans tracking-tighter p-1 overflow-x-hidden overflow-y-hidden text-white dark:text-white md:text-7xl md:leading-[5rem]"
-      words="Meet the brain behind the code..."
+      className=" mt-20 -mb-[5rem] paytone_one text-wrap font-extrabold md:mx-4 lg:mx-5 font-sans md:tracking-tighter lg:tracking-tight p-5 overflow-x-hidden leading-[2.2rem] overflow-y-hidden text-white dark:text-white md:text-2xl md:leading-[3rem] xl:text-[7rem] lg:text-[5rem] sm:text-xl"
+      words="Meet the brain behind the code"
     />
   );
 }
