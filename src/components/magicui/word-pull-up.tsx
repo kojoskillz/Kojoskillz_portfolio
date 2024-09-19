@@ -35,7 +35,7 @@ export default function WordPullUp({
       initial="hidden"
       animate="show"
       className={cn(
-        "font-display paytone_one text-center text-6xl font-bold leading-[5rem] tracking-[-0.02em] drop-shadow-sm",
+        "font-display text-center text-3xl font-bold leading-[-1rem]   tracking-[-.2em] drop-shadow-sm",
         className,
       )}
     >
