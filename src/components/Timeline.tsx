@@ -9,7 +9,7 @@ export default function TimelineDemo() {
       title: "2024",
       content: (
         <div>
-          <h1 className="text-white uppercase dark:text-neutral-200 text-xl font-bold md:text-sm  mb-4">
+          <h1 className="text-cyan-300 uppercase dark:text-neutral-200 text-xl font-bold md:text-sm  mb-4">
              Bsc. Software Engineering
           </h1>
           <h1 className="text-white dark:text-neutral-200 text-xl font-bold md:text-sm  mb-4">
@@ -27,7 +27,7 @@ export default function TimelineDemo() {
       title: "2022",
       content: (
         <div>
-          <h1 className="text-white uppercase dark:text-neutral-200 text-xl font-bold md:text-sm  mb-4">
+          <h1 className="text-cyan-300 uppercase dark:text-neutral-200 text-xl font-bold md:text-sm  mb-4">
              Certification
           </h1>
           <h1 className="text-white dark:text-neutral-200 text-xl font-bold md:text-sm  mb-4">
@@ -46,7 +46,7 @@ export default function TimelineDemo() {
       title: "2017-2020",
       content: (
         <div>
-        <h1 className="text-white uppercase dark:text-neutral-200 text-xl font-bold md:text-sm  mb-4">
+        <h1 className="text-cyan-300 uppercase dark:text-neutral-200 text-xl font-bold md:text-sm  mb-4">
              DBE. EDUCATION
           </h1>
           <h1 className="text-white dark:text-neutral-200 text-xl font-bold md:text-sm  mb-4">
