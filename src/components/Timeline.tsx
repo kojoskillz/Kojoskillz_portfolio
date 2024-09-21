@@ -17,7 +17,8 @@ export default function TimelineDemo() {
           </h1>
 
           <p className="text-white dark:text-neutral-200 text-lg md:text-sm font-normal mb-8">
-            Built and launched Aceternity UI and Aceternity UI Pro from scratch
+            I am committed to enhancing my skills in software development, focusing on software architecture, 
+            algorithms, data science, and the software development lifecycle (SDLC), to design, develop, and deploy cutting-edge software solutions that solve real-world problems and improve lives.
           </p>
          
         </div>
@@ -35,8 +36,8 @@ export default function TimelineDemo() {
           </h1>
         
           <p className="text-white dark:text-neutral-200 text-lg md:text-sm font-normal mb-8">
-            Lorem ipsum is for people who are too lazy to write copy. But we are
-            not. Here are some more example of beautiful designs I built.
+             I possess expertise in modern web development technologies, including HTML5, CSS3, JavaScript,
+              and Responsive Web Design, enabling me to create dynamic, visually appealing, and user-friendly web applications.
           </p>
         
         </div>
@@ -54,7 +55,8 @@ export default function TimelineDemo() {
           </h1>
           <div className="mb-8">
             <h1 className="text-white ">
-              Lorem  Lorem  Lorem  Lorem  Lorem  Lorem  Lorem  Lorem  Lorem 
+              I possess expertise in communication, education, and teaching methods, utilizing active learning, project-based learning, and technology 
+              integration to deliver engaging and effective learning experiences.
             </h1>
           </div>
          
