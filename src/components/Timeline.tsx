@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import {Timeline} from "../components/ui/timeline";
-import img1 from "../app/assets/img.png"
+
 
 export default function TimelineDemo() {
   const data = [
@@ -17,8 +17,8 @@ export default function TimelineDemo() {
           </h1>
 
           <p className="text-white dark:text-neutral-200 text-lg md:text-sm font-normal mb-8">
-            I am committed to enhancing my skills in software development, focusing on software architecture, 
-            algorithms, data science, and the software development lifecycle (SDLC), to design, develop, and deploy cutting-edge software solutions that solve real-world problems and improve lives.
+          I'm committed to enhancing software development skills in architecture, algorithms, 
+          data science, and SDLC to design, develop, and deploy solutions that solve real-world problems.
           </p>
          
         </div>
@@ -36,8 +36,7 @@ export default function TimelineDemo() {
           </h1>
         
           <p className="text-white dark:text-neutral-200 text-lg md:text-sm font-normal mb-8">
-             I possess expertise in modern web development technologies, including HTML5, CSS3, JavaScript,
-              and Responsive Web Design, enabling me to create dynamic, visually appealing, and user-friendly web applications.
+            I possess expertise in HTML5, CSS3, JavaScript, and Responsive Web Design for dynamic and user-friendly web applications
           </p>
         
         </div>
@@ -55,8 +54,7 @@ export default function TimelineDemo() {
           </h1>
           <div className="mb-8">
             <h1 className="text-white ">
-              I possess expertise in communication, education, and teaching methods, utilizing active learning, project-based learning, and technology 
-              integration to deliver engaging and effective learning experiences.
+            I possess expertise in communication, education, and teaching methods, utilizing active learning and technology integration
             </h1>
           </div>
          
