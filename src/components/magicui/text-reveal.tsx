@@ -22,10 +22,10 @@ export const TextRevealByWord: FC<TextRevealByWordProps> = ({
   const words = text.split("");
 
   return (
-    <div ref={targetRef} className={cn("relative m-0 p-0 bg-black  z-0 h-[120vh] ", className)}>
+    <div ref={targetRef} className={cn("relative m-0 p-0 bg-black -z-0 h-[120vh] ", className)}>
       <div
         className={
-          "sticky top-0 mt-[2rem] mx-auto flex h-[50%] max-w-5xl font-sans items-center bg-transparent text-wrap px-[.5rem] py-[5rem]"
+          "sticky top-0 -mt-[5rem] mx-auto flex h-[50%] max-w-5xl font-sans items-center bg-transparent text-wrap px-[.5rem] py-[5rem]"
         }
       >
         <p
@@ -57,6 +57,7 @@ interface WordProps {
 
 
 const Word: FC<WordProps> = ({ children, progress, range }) => {
+  
   const opacity = useTransform(progress, range, [0, 1]);
   return (
     <span className="xl:lg-3 relative mx-[2px] lg:mx-2.5">
