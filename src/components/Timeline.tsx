@@ -36,7 +36,7 @@ export default function TimelineDemo() {
           </h1>
         
           <p className="text-white dark:text-neutral-200 text-lg md:text-sm font-normal mb-8">
-            I possess expertise in HTML5, CSS3, JavaScript, and Responsive Web Design for dynamic and user-friendly web applications
+          Skilled in building dynamic web applications using HTML5, CSS3, JavaScript, and Responsive Web Design for dynamic and user-friendly web applications
           </p>
         
         </div>
