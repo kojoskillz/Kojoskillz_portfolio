@@ -16,7 +16,7 @@ export default function TimelineDemo() {
              IPMC UNIVERSITY COLLEGE
           </h1>
 
-          <p className="text-cyan-50 text-[16px] dark:text-neutral-200 text-lg md:text-sm xl:text-xl  font-normal mb-8">
+          <p className="text-cyan-50 text-[15px] dark:text-neutral-200 text-lg md:text-sm xl:text-xl  font-normal mb-8">
           I'm committed to enhancing software development skills in architecture, algorithms, 
           data science, and SDLC to design, develop, and deploy solutions that solve real-world problems.
           </p>
@@ -35,7 +35,7 @@ export default function TimelineDemo() {
              FREECODECAMP
           </h1>
         
-          <p className="text-cyan-50 text-[16px] dark:text-neutral-200 text-lg md:text-sm font-normal xl:text-xl  mb-8">
+          <p className="text-cyan-50 text-[15px] dark:text-neutral-200 text-lg md:text-sm font-normal xl:text-xl  mb-8">
           Skilled in building dynamic web applications using HTML5, CSS3, JavaScript, and Responsive Web Design for dynamic and user-friendly web applications
           </p>
         
