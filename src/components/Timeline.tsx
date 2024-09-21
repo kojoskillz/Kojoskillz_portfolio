@@ -17,8 +17,8 @@ export default function TimelineDemo() {
           </h1>
 
           <p className="text-cyan-50 text-[15px] dark:text-neutral-200 text-lg md:text-sm xl:text-xl  font-normal mb-8">
-          I'm committed to enhancing software development skills in architecture, algorithms, 
-          data science, and SDLC to design, develop, and deploy solutions that solve real-world problems.
+            I'm committed to enhancing software development skills in architecture, algorithms, 
+            data science, and SDLC to design, develop, and deploy solutions that solve real-world problems.
           </p>
          
         </div>
