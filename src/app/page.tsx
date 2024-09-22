@@ -1,7 +1,7 @@
 import Navbar from "../components/Navbar";
 import SparklesPreview from "../components/Homepage";
 import NumberTickerDemo from "../components/Number_ticker";
-import TextReveal from "../components/Text_reveal";
+import BlurInDemo from "../components/Blur_In";
 import WordPullUpDemo from "../components/Word_pull_up";
 import TimelineDemo  from "../components/Timeline";
 import Technical_skills  from "../components/Technical_skills";
@@ -19,7 +19,7 @@ export default function Home() {
         <SparklesPreview />
         <NumberTickerDemo />
         <WordPullUpDemo />
-        <TextReveal />
+        <BlurInDemo />
         <TimelineDemo />
         <Technical_skills />
         <AnimatedPinDemo />
