@@ -14,8 +14,8 @@ import { SiCplusplus } from "react-icons/si";
 
 const Technical_skills = () => {
   return (
-    <div className='bg-black xl:pb-[5rem] pb-[4rem] xl:[20rem] lg:[20rem] mt-[45rem]  z-40'>
-         <h1 className='text-cyan-300 xl:text-5xl text-[20px] xl:mt-[85rem] font-bold text-center'>
+    <div className='bg-black xl:pb-[5rem] pb-[4rem] xl:mt-[37rem] lg:mt-[36rem] md:mt-[26rem] mt-[87rem] z-40'>
+         <h1 className='text-cyan-300 xl:text-5xl text-[20px] xl:mt-[88rem] mt-[72rem] font-bold text-center'>
             Technical Skills
          </h1>
          <div className='grid place-content-center mt-5 m-auto'>
