@@ -14,14 +14,14 @@ import { SiCplusplus } from "react-icons/si";
 
 const Technical_skills = () => {
   return (
-    <div className='bg-black xl:pb-[20rem] pb-[10rem] xl:[20rem] lg:[20rem] mt-[45rem] z-40'>
-         <h1 className='text-cyan-300 text-[20px] xl:mt-[15rem]  font-bold text-center'>
+    <div className='bg-black xl:pb-[5rem] pb-[4rem] xl:[20rem] lg:[20rem] mt-[45rem]  z-40'>
+         <h1 className='text-cyan-300 xl:text-5xl text-[20px] xl:mt-[85rem] font-bold text-center'>
             Technical Skills
          </h1>
          <div className='grid place-content-center mt-5 m-auto'>
             
                  <div>
-                    <h1 className='text-white pb-2 text-center text-lg '>
+                    <h1 className='text-white xl:text-2xl pb-2 text-center text-lg '>
                         Programming Languages
                     </h1>
                   </div>
@@ -38,7 +38,7 @@ const Technical_skills = () => {
             
 
                  <div className='mt-10'>
-                    <h1 className='text-white pb-2 text-center text-lg '>
+                    <h1 className='text-white xl:text-2xl pb-2 text-center text-lg '>
                         Tools
                     </h1>
                   </div>
