@@ -5,7 +5,7 @@ import { PinContainer } from "../components/ui/3d-pin";
 export function AnimatedPinDemo() {
   return (
 
-<div className=" pb-[6rem]">
+<div className=" pb-[3rem] mt-[2rem] md:mt-[2rem] xl:mt-[4rem] lg:mt-[4rem]  ">
 
     <div className='bg-black'>
         <h1 className='text-cyan-300 xl:text-5xl text-[20px] font-bold text-center'>
