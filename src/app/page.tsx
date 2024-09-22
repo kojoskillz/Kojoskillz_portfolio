@@ -6,7 +6,10 @@ import WordPullUpDemo from "../components/Word_pull_up";
 import TimelineDemo  from "../components/Timeline";
 import Technical_skills  from "../components/Technical_skills";
 import VortexDemo  from "../components/Vortex";
+import { AnimatedPinDemo } from "../components/Project_card";
 import '../app/globals.css';
+
+
 
 
 export default function Home() {
@@ -19,7 +22,9 @@ export default function Home() {
         <TextReveal />
         <TimelineDemo />
         <Technical_skills />
+        <AnimatedPinDemo />
         <VortexDemo />
+       
     </>
 
   );
