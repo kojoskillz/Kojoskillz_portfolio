@@ -60,9 +60,7 @@ export default function TimelineDemo() {
          
         </div>
 
-      // // technical skills
-      // <div>
-      // </div>
+
 
       ),
     },
