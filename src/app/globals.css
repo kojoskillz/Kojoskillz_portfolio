@@ -18,8 +18,8 @@ body{
 }
 
 :root {
-  --font-permanent_marker: "Permanent Marker", cursive;
-  --font-paytone_one:  "Paytone One", system-ui;
+  --font-permanent_marker: "Permanent_Marker", cursive;
+  --font-paytone_one:  "Paytone_One", system-ui;
 }
 
 .permanent_marker {
@@ -170,7 +170,7 @@ body{
   transition: 0.5s ease-in-out;
 }
 
-.container .box::before {
+/* .container .box::before {
   content: '';
   position: absolute;
   inset: -10px 50px;
@@ -184,7 +184,7 @@ body{
   transform: skewY(15deg);
   -webkit-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
-}
+} */
 
 .container .box:hover::before {
   -webkit-transform: skewY(0deg);
@@ -192,7 +192,7 @@ body{
   transform: skewY(0deg);
   inset: -10px 40px;
 }
-
+/* 
 .container .box::after {
   content: '';
   position: absolute;
@@ -206,7 +206,7 @@ body{
   transform: skew(15deg);
   -webkit-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
-}
+} */
 
 .container .box:hover::after {
   -webkit-transform: skew(0deg);
