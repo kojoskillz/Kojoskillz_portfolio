@@ -5,7 +5,7 @@ import { SparklesCore } from "../components/sparkles";
 
 export  function SparklesPreview() {
   return (
-    <div className="h-[50rem] w-full pt-20 bg-black flex flex-col items-center justify-center overflow-hidden rounded-none mb-10">
+    <div id='Home' className="h-[50rem] w-full pt-20 bg-black flex flex-col items-center justify-center overflow-hidden rounded-none mb-10">
             <div>
                <h1 className=' focus-in-contract  font-sans  text-wrap stroke  text-[2.5rem] inset-20 font-extrabold  '>
                    Hey there, meet
@@ -21,7 +21,6 @@ export  function SparklesPreview() {
       </h1>
 
       {/* socials */}
-      {/* From Uiverse.io by akshat-patel28  */}
 
       <div className='flex place-content-center gap-2 mt-5' >
       <div className="flex justify-center items-center">
