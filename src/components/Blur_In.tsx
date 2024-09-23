@@ -6,9 +6,9 @@ import Image from 'next/image';
 const BlurInDemo = () => {
   return (
 
-    <div className="grid mt-20 xl:ml-[12rem] xl:mr-[6rem] lg:mr-[-10rem] xl:flex lg:flex md:flex sm:grid xs:grid ">
+    <div className="grid gap-28 md:gap-3 sm:gap-3 place-content-center relative mt-20 xl:ml-[12rem] xl:mr-[1rem]  lg:mr-[10rem] xl:flex lg:flex md:flex sm:grid xs:grid ">
 
-    <div className="container">
+    <div className="container mb-[-7rem] lg:ml-[10rem] xl:ml-[7rem] ">
     <div className="box">
         <div className="content">
           <Image 
@@ -17,7 +17,7 @@ const BlurInDemo = () => {
             width="900"
             height="900"
             sizes="fit-content"
-            className="img1"
+            className="img1  "
           />
         </div>
     </div>
@@ -27,10 +27,10 @@ const BlurInDemo = () => {
       word=" Hi, I'm Kwadwo Nyarko based in Ghana, a software engineer extraordinaire! Specialized in Frontend-Engineering.
              Websites are my jam I conjure up digital magic one line of code at a time.
               When I'm not geeking out over code, I'm crafting websites that makes you go WOW!"
-      className="font-semi-bold text-white lg:font-light mx-5 md:mx-0 lg:mx-[10rem] xl:ml-[-13rem] lg:ml-[-10rem] mt-5 dark:text-white"
+      className="font-semi-bold text-white lg:font-light mx-5 md:mx-0 lg:mx-[10rem] xl:ml-[-13rem] mt-5 dark:text-white"
     />
      {/* button for cv */}
-     <button className="buttonDownload z-10 mt-[42rem] ml-[1rem] md:ml-[40rem] lg:ml-[10rem] xl:mt-[20rem] xl:ml-[45rem] lg:mt-[20rem] md:mt-[80rem] sm:mt-[30rem] xs:mt-[20rem]  xl:grid lg:grid md:grid sm:grid xs:grid">Download CV</button>
+     <button className="buttonDownload z-10 mt-[42rem] ml-[1rem] md:ml-[40rem]  lg:m-auto xl:mt-[20rem] lg:mt-[20rem] md:mt-[80rem] sm:mt-[30rem] xs:mt-[20rem]">Download CV</button>
       </div>
   );
 };
