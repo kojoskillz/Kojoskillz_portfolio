@@ -1,6 +1,8 @@
 "use client";
 import React from "react";
 import { PinContainer } from "../components/ui/3d-pin";
+import Image from 'next/image';
+import img2 from "../app/assets/Casfis_P1.png";
 
 export function AnimatedPinDemo() {
   return (
@@ -16,71 +18,179 @@ export function AnimatedPinDemo() {
         </p>
     </div>  
     
-    <div className="grid xl:grid-cols-2  xl:gap-y-36 m-32 gap-y-16 mt-[4rem] xl:mt-[7rem] items-center justify-center ">
+    <div className="grid xl:grid-cols-2  xl:gap-y-[13rem] m-32 gap-y-[6rem] mt-[4rem] xl:mt-[7rem] items-center justify-center ">
       <PinContainer
-        title="/ui.aceternity.com"
-        href="https://twitter.com/mannupaaji"
+        title="casfis.onrender.com"
+        href="https://casfis.onrender.com"
       >
-        <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] xl:w-[35rem] xl:h-[25rem]">
-          <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500" />
+        <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[23rem] xl:w-[35rem] xl:h-[30rem]">
+          <Image 
+            src={img2}
+            alt="my_profile_pic"
+            width="900"
+            height="900"
+            sizes="fit-content"
+            className="img2"
+          />
           <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
             Casfis Restaurant
           </h3>
           <div className="text-base !m-0 !p-0 font-normal">
-            <span className="text-slate-500 ">
-              Customizable Tailwind CSS and Framer Motion Components.
+            <span className="text-slate-300 ">
+              Casfis Restaurant is a landing page site where customers can conveniently
+              make reservations, browse menus, and securely purchase meals using payment vouchers.
             </span>
+            <p className="text-white flex pt-3 font-light text-sm">
+              <span className="text-cyan-300 font-semi-bold">Tech Stack:</span> Html, Css, Javascript
+            </p>
+
+             {/* source_code & livepreview */}
+             
+             {/* live_preview */}
+             <div className="flex gap-2">
+                <a href="">
+                    <p className='text-white  active:text-red-200  hover:text-red-200 cursor-pointer text-sm'>live preview</p>
+                </a>
+                
+                {/* source_code */}
+                <a href="">
+                    <p className='text-blue-400  active:text-blue-200  hover:text-blue-200 cursor-pointer  text-sm'>source code</p>
+                </a>
+             </div>
+            
+
           </div>
         </div>
       </PinContainer>
+
       <PinContainer
         title="/ui.aceternity.com"
         href="https://twitter.com/mannupaaji"
       >
-        <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] xl:w-[35rem] xl:h-[25rem]"> 
-          <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500" />
-          <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
-            Aceternity UI
-          </h3>
-          <div className="text-base !m-0 !p-0 font-normal">
-            <span className="text-slate-500 ">
-              Customizable Tailwind CSS and Framer Motion Components.
+        <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[23rem] xl:w-[35rem] xl:h-[30rem]"> 
+        <Image 
+            src={img2}
+            alt="my_profile_pic"
+            width="900"
+            height="900"
+            sizes="fit-content"
+            className="img2"
+          />
+             <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
+               Casfis Restaurant
+             </h3>
+           <span className="text-slate-300 ">
+              Casfis Restaurant is a landing page site where customers can conveniently
+              make reservations, browse menus, and securely purchase meals using payment vouchers.
             </span>
+            <p className="text-white flex pt-3 font-light text-sm">
+              <span className="text-cyan-300 font-semi-bold">Tech Stack:</span> Html, Css, Javascript
+            </p>
+
+             {/* source_code & livepreview */}
+             
+             {/* live_preview */}
+             <div className="flex gap-2">
+                <a href="">
+                    <p className='text-white active:text-red-200  hover:text-red-200 cursor-pointer text-sm'>live preview</p>
+                </a>
+                
+                {/* source_code */}
+                <a href="">
+                    <p className='text-blue-400  active:text-blue-200  hover:text-blue-200 cursor-pointer text-sm'>source code</p>
+                </a>
+             
           </div>
         </div>
       </PinContainer>
+
+     
       <PinContainer
         title="/ui.aceternity.com"
         href="https://twitter.com/mannupaaji"
       >
-        <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] xl:w-[35rem] xl:h-[25rem]">
-          <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500" />
-          <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
-            Aceternity UI
-          </h3>
-          <div className="text-base !m-0 !p-0 font-normal">
-            <span className="text-slate-500 ">
-              Customizable Tailwind CSS and Framer Motion Components.
+        <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[23rem] xl:w-[35rem] xl:h-[30rem]"> 
+        <Image 
+            src={img2}
+            alt="my_profile_pic"
+            width="900"
+            height="900"
+            sizes="fit-content"
+            className="img2"
+          />
+             <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
+               Casfis Restaurant
+             </h3>
+           <span className="text-slate-300 ">
+              Casfis Restaurant is a landing page site where customers can conveniently
+              make reservations, browse menus, and securely purchase meals using payment vouchers.
             </span>
+            <p className="text-white flex pt-3 font-light text-sm">
+              <span className="text-cyan-300 font-semi-bold">Tech Stack:</span> Html, Css, Javascript
+            </p>
+
+             {/* source_code & livepreview */}
+             
+             {/* live_preview */}
+             <div className="flex gap-2">
+                <a href="">
+                    <p className='text-whiteS active:text-red-200  hover:text-red-200 cursor-pointer pointer pb-[3px] text-sm'>live preview</p>
+                </a>
+                
+                {/* source_code */}
+                <a href="">
+                    <p className='text-blue-400S active:text-blue-200  hover:text-blue-200 cursor-pointer pointer pb-[3px] text-sm'>source code</p>
+                </a>
+             
           </div>
         </div>
       </PinContainer>
+
+     
       <PinContainer
         title="/ui.aceternity.com"
         href="https://twitter.com/mannupaaji"
       >
-        <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] xl:w-[35rem] xl:h-[25rem] ">
-          <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500" />
-          <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
-            Aceternity UI
-          </h3>
-          <div className="text-base !m-0 !p-0 font-normal">
-            <span className="text-slate-500 ">
-              Customizable Tailwind CSS and Framer Motion Components.
+        <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[23rem] xl:w-[35rem] xl:h-[30rem]"> 
+        <Image 
+            src={img2}
+            alt="my_profile_pic"
+            width="900"
+            height="900"
+            sizes="fit-content"
+            className="img2"
+          />
+             <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
+               Casfis Restaurant
+             </h3>
+           <span className="text-slate-300 ">
+              Casfis Restaurant is a landing page site where customers can conveniently
+              make reservations, browse menus, and securely purchase meals using payment vouchers.
             </span>
+            <p className="text-white flex pt-3 font-light text-sm">
+              <span className="text-cyan-300 font-semi-bold">Tech Stack:</span> Html, Css, Javascript
+            </p>
+
+             {/* source_code & livepreview */}
+             
+             {/* live_preview */}
+             <div className="flex gap-2">
+                <a href="">
+                    <p className='text-red-400 grid  active:text-red-200 hover:text-red-200 cursor-pointer text-sm'>live preview</p>
+                </a>
+                
+                {/* source_code */}
+                <a href="">
+                    <p className='text-blue-400  active:text-blue-200  hover:text-blue-200 cursor-pointer text-sm'>source code</p>
+                </a>
+             
           </div>
         </div>
       </PinContainer>
+
+     
+      
+
     </div>
     </div>
   );
