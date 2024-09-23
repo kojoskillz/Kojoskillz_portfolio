@@ -221,7 +221,7 @@ body{
 
 
 /* From Uiverse.io by adamgiebl */ 
-.buttonX {
+button {
   display: flex;
   align-items: center;
   font-family: inherit;
@@ -237,21 +237,21 @@ body{
   border-radius: 16px;
 }
 
-.buttonX svg {
+button svg {
   margin-right: 3px;
   transform: rotate(30deg);
   transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
 }
 
-.buttonX span {
+button span {
   transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
 }
 
-.buttonX:hover svg {
+button:hover svg {
   transform: translateX(5px) rotate(90deg);
 }
 
-.buttonX:hover span {
+button:hover span {
   transform: translateX(7px);
 }
 
