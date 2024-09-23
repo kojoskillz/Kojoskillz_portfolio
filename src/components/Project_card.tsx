@@ -30,7 +30,7 @@ export function AnimatedPinDemo() {
             width="900"
             height="900"
             sizes="fit-content"
-            className="img2"
+           
           />
           <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
             Casfis Restaurant
@@ -49,12 +49,12 @@ export function AnimatedPinDemo() {
              {/* live_preview */}
              <div className="flex gap-2">
                 <a href="">
-                    <button className='text-white btnX     ursor-pointer text-sm'>live preview</button>
+                    <p className='text-white btnX cursor-pointer text-sm'>live preview</p>
                 </a>
                 
                 {/* source_code */}
                 <a href="">
-                    <button className='text-blue-400 btnY      cursor-pointer  text-sm'>source code</button>
+                    <p className='text-blue-400 btnY      cursor-pointer  text-sm'>source code</p>
                 </a>
              </div>
             
@@ -74,7 +74,7 @@ export function AnimatedPinDemo() {
             width="900"
             height="900"
             sizes="fit-content"
-            className="img2"
+           
           />
              <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
                Casfis Restaurant
@@ -116,7 +116,7 @@ export function AnimatedPinDemo() {
             width="900"
             height="900"
             sizes="fit-content"
-            className="img2"
+           
           />
              <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
                Casfis Restaurant
@@ -158,7 +158,7 @@ export function AnimatedPinDemo() {
             width="900"
             height="900"
             sizes="fit-content"
-            className="img2"
+           
           />
              <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
                Casfis Restaurant
