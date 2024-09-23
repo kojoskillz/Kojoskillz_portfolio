@@ -25,7 +25,7 @@ export default function TimelineDemo() {
       ),
     },
     {
-      title: "2022",
+      title: "2022-2023",
       content: (
         <div>
           <h1 className="text-cyan-300 uppercase dark:text-neutral-200 text-xl font-bold md:text-sm xl:text-4xl mb-4">
