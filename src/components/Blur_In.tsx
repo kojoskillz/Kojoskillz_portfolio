@@ -30,7 +30,7 @@ const BlurInDemo = () => {
       className="font-semi-bold text-white mx-5 mt-5 dark:text-white"
     />
      {/* button for cv */}
-     <button className="buttonDownload z-10 mt-[42rem] ml-[1rem] xl:mt-[20rem] xl:ml-[25rem] lg:mt-[20rem] md:mt-[80rem] sm:mt-[30rem] xs:mt-[20rem]  xl:grid lg:grid md:grid sm:grid xs:grid">Download CV</button>
+     <button className="buttonDownload buttonX z-10 mt-[42rem] ml-[1rem] xl:mt-[20rem] xl:ml-[25rem] lg:mt-[20rem] md:mt-[80rem] sm:mt-[30rem] xs:mt-[20rem]  xl:grid lg:grid md:grid sm:grid xs:grid">Download CV</button>
       </div>
   );
 };
