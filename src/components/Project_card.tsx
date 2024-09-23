@@ -49,12 +49,12 @@ export function AnimatedPinDemo() {
              {/* live_preview */}
              <div className="flex gap-2">
                 <a href="">
-                    <p className='text-white  active:text-red-200  hover:text-red-200 cursor-pointer text-sm'>live preview</p>
+                    <button className='text-white btnX     ursor-pointer text-sm'>live preview</button>
                 </a>
                 
                 {/* source_code */}
                 <a href="">
-                    <p className='text-blue-400  active:text-blue-200  hover:text-blue-200 cursor-pointer  text-sm'>source code</p>
+                    <button className='text-blue-400 btnY      cursor-pointer  text-sm'>source code</button>
                 </a>
              </div>
             
@@ -92,12 +92,12 @@ export function AnimatedPinDemo() {
              {/* live_preview */}
              <div className="flex gap-2">
                 <a href="">
-                    <p className='text-white active:text-red-200  hover:text-red-200 cursor-pointer text-sm'>live preview</p>
+                    <p className=' btnX cursor-pointer text-sm'>live preview</p>
                 </a>
                 
                 {/* source_code */}
                 <a href="">
-                    <p className='text-blue-400  active:text-blue-200  hover:text-blue-200 cursor-pointer text-sm'>source code</p>
+                    <p className=' btnY cursor-pointer text-sm'>source code</p>
                 </a>
              
           </div>
@@ -134,12 +134,12 @@ export function AnimatedPinDemo() {
              {/* live_preview */}
              <div className="flex gap-2">
                 <a href="">
-                    <p className='text-whiteS active:text-red-200  hover:text-red-200 cursor-pointer pointer pb-[3px] text-sm'>live preview</p>
+                    <p className=' btnX cursor-pointer pointer pb-[3px] text-sm'>live preview</p>
                 </a>
                 
                 {/* source_code */}
                 <a href="">
-                    <p className='text-blue-400S active:text-blue-200  hover:text-blue-200 cursor-pointer pointer pb-[3px] text-sm'>source code</p>
+                    <p className=' btnY cursor-pointer pointer pb-[3px] text-sm'>source code</p>
                 </a>
              
           </div>
@@ -176,12 +176,12 @@ export function AnimatedPinDemo() {
              {/* live_preview */}
              <div className="flex gap-2">
                 <a href="">
-                    <p className='text-red-400 grid  active:text-red-200 hover:text-red-200 cursor-pointer text-sm'>live preview</p>
+                    <p className=' btnX  cursor-pointer text-sm'>live preview</p>
                 </a>
                 
                 {/* source_code */}
                 <a href="">
-                    <p className='text-blue-400  active:text-blue-200  hover:text-blue-200 cursor-pointer text-sm'>source code</p>
+                    <p className=' btnY cursor-pointer text-sm'>source code</p>
                 </a>
              
           </div>
