@@ -93,7 +93,7 @@ export  function SparklesPreview() {
       fill="currentColor"
     ></path>
    </svg>
-   <span>Get in touch</span>
+   <span className='buttonX'>Get in touch</span>
   </button>
  </a>
 
