@@ -27,7 +27,7 @@ const BlurIn = ({ word, className, variant, duration = 1 }: BlurIntProps) => {
       transition={{ duration }}
       variants={combinedVariants}
       className={cn(
-        "font-display text-white text-left text-[18px] lg:text-[30px]  font-semi-bold  tracking-[-0.02em] drop-shadow-sm md:text-[22px] md:text-left md:leading-[2rem] max-w-[26rem] md:max-w-[24.6rem] lg:max-w-[50rem]  lg:leading-[2rem] xl:leading-[2rem]",
+        "font-display text-white text-left text-[18px] lg:text-[30px]  font-semi-bold  tracking-[-0.02em] drop-shadow-sm md:text-[22px] md:text-left md:leading-[2rem] max-w-[26rem] md:max-w-[24.6rem] lg:max-w-[38rem] lg:ml-[10rem] xl:max-w-[31rem] xl:ml-[7rem] lg:leading-[2rem] xl:leading-[2rem]",
         className,
       )}
     >
