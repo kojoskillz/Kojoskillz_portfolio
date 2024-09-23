@@ -7,7 +7,7 @@ import img2 from "../app/assets/Casfis_P1.png";
 export function AnimatedPinDemo() {
   return (
 
-<div className=" pb-[3rem] mt-[2rem] md:mt-[2rem] xl:mt-[4rem] lg:mt-[4rem]  ">
+<div className="relative pb-[3rem] mt-[2rem] md:mt-[2rem] xl:mt-[4rem] lg:mt-[4rem]  ">
 
     <div className='bg-black'>
         <h1 className='text-cyan-300 xl:text-5xl text-[20px] font-bold text-center'>
@@ -49,12 +49,12 @@ export function AnimatedPinDemo() {
              {/* live_preview */}
              <div className="flex gap-2">
                 <a href="">
-                    <p className='text-white btnX cursor-pointer text-sm'>live preview</p>
+                    <p className='text-white btnX  text-sm'>live preview</p>
                 </a>
                 
                 {/* source_code */}
                 <a href="">
-                    <p className='text-blue-400 btnY      cursor-pointer  text-sm'>source code</p>
+                    <p className='text-blue-400 btnY  text-sm'>source code</p>
                 </a>
              </div>
             
