@@ -7,7 +7,7 @@ import img2 from "../app/assets/Casfis_P1.png";
 export function AnimatedPinDemo() {
   return (
 
-<div className="relative pb-[3rem] mt-[2rem] md:mt-[2rem] xl:mt-[4rem] lg:mt-[4rem]  ">
+<div className="relative pb-[3rem]  mt-[2rem] md:mt-[2rem] xl:mt-[4rem] lg:mt-[4rem]  ">
 
     <div className='bg-black'>
         <h1 className='text-cyan-300 xl:text-5xl text-[20px] font-bold text-center'>
@@ -18,7 +18,7 @@ export function AnimatedPinDemo() {
         </p>
     </div>  
     
-    <div className="grid xl:grid-cols-2  xl:gap-y-[13rem] m-32 gap-y-[6rem] mt-[4rem] xl:mt-[7rem] items-center justify-center ">
+    <div className="grid xl:grid-cols-2 sm:grid xs:grid md:grid md:grid-cols-2 md:gap-28 md:m-20 xl:gap-y-[13rem] m-32 gap-y-[6rem] mt-[4rem] xl:mt-[7rem]  items-center justify-center ">
       <PinContainer
         title="casfis.onrender.com"
         href="https://casfis.onrender.com"
