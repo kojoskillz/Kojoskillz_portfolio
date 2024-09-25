@@ -2,6 +2,7 @@
 "use client";
 import React from 'react'
 import { SparklesCore } from "../components/sparkles";
+// import { motion } from "framer-motion"
 
 export  function SparklesPreview() {
   return (
@@ -11,8 +12,16 @@ export  function SparklesPreview() {
                    Hey there, meet
                </h1>
             </div>
-        
-      <h1 className="md:text-7xl permanent_marker xs:text:[10rem] text-[4.5rem] tracking-tighter leading-[4rem]  text-wrap sm:font-extrabold xs:font-extrabold md:font-extrabold lg:font-extrabold  lg:text-9xl font-extrabold text-center  bg-gradient-to-r from-[#00aeff] to-[#51e2ff]  inline-block  text-transparent bg-clip-text focus-in-expand-fwd ">
+            {/* <motion.div
+    animate={{
+      scale: [1, 2, 2, 1, 1],
+      rotate: [0, 0, 270, 270, 0],
+      borderRadius: ["20%", "20%", "50%", "50%", "20%"],
+
+      
+    }}
+  /> */}
+      <h1 className="md:text-7xl animate permanent_marker xs:text:[10rem] text-[4.5rem] tracking-tighter leading-[4rem]  text-wrap sm:font-extrabold xs:font-extrabold md:font-extrabold lg:font-extrabold  lg:text-9xl font-extrabold text-center  bg-gradient-to-r from-[#00aeff] to-[#51e2ff]  inline-block  text-transparent bg-clip-text focus-in-expand-fwd ">
         KWADWO <br /> NYARKO
       </h1>
       <h1 className="md:text-3xl font-sans  sm:text-[10rem] font-light text-[19px] text-wrap text-center text-gray-300  relative z-20 text-blur-out ">
@@ -24,6 +33,8 @@ export  function SparklesPreview() {
 
       <div className='flex place-content-center gap-2 mt-5' >
       <div className="flex justify-center items-center">
+
+        <a href="https://twitter.com/kojo_skillz?t=Dg1ZKm7opH3jQy_xftrSCw&s=09">
   <button
     // href="/"
     className="group flex justify-center p-2 rounded-md drop-shadow-xl bg-gradient-to-r from-gray-950 to-black text-white font-semibold duration-500 "
@@ -48,10 +59,13 @@ export  function SparklesPreview() {
       {/* x */}
     </span>
   </button>
+  </a>
 </div>
 
 {/* From Uiverse.io by EcheverriaJesus  */}
 <div className="flex justify-center items-center">
+
+  <a href="https://github.com/kojoskillz"> 
   <button
     className="group flex justify-center  p-2 rounded-md drop-shadow-xl bg-gradient-to-r from-gray-950 to-black text-white font-semibold transition-all duration-500"
     // href="https://github.com/kojoskillz"
@@ -75,6 +89,7 @@ export  function SparklesPreview() {
       {/* GitHub */}
     </span>
   </button>
+  </a>
 </div>
 
       </div>
