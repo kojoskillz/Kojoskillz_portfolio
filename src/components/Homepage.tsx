@@ -94,7 +94,7 @@ export  function SparklesPreview() {
 
       </div>
 
- <a href="">   
+ <a href="https://wa.link/to0qey">   
   <button  className='mt-5 mb-5 font-sans' >
    <svg
     height="24"
