@@ -89,9 +89,12 @@ body{
 
 
 .img1{
-  width:15rem;
-  height: 33rem;
+  width:8rem;
+  height: 7rem;
+  margin-right: 27px;
   object-fit:cover;
+  border-radius:  360%;;
+  border: 2px solid rgba(112, 128, 144, 0.395);
 }
 
 
