@@ -1,6 +1,6 @@
 import BlurIn from "./magicui/blur-in";
-import img1 from "../app/assets/img.png"
-import Image from 'next/image';
+// import img1 from "../app/assets/img.png"
+// import Image from 'next/image';
 
 
 const BlurInDemo = () => {
@@ -8,7 +8,7 @@ const BlurInDemo = () => {
 
     <div className="grid gap-28 md:gap-3 sm:gap-3 place-content-center relative mt-20 xl:ml-[12rem] xl:mr-[1rem]  lg:mr-[10rem] xl:flex lg:flex md:flex sm:grid xs:grid ">
 
-    <div className="container mb-[-7rem] lg:ml-[10rem] xl:ml-[7rem] ">
+    {/* <div className="container mb-[-7rem] lg:ml-[10rem] xl:ml-[7rem] ">
     <div className="box">
         <div className="content">
           <Image 
@@ -21,14 +21,8 @@ const BlurInDemo = () => {
           />
         </div>
     </div>
-    </div>
+    </div> */}
 
-    <BlurIn
-      word=" Hi, I'm Kwadwo Nyarko based in Ghana, a software engineer extraordinaire! Specialized in Frontend-Engineering.
-             Websites are my jam I conjure up digital magic one line of code at a time.
-              When I'm not geeking out over code, I'm crafting websites that makes you go WOW!"
-      className="font-semi-bold text-white lg:font-light mx-5 md:mx-0 lg:mx-[10rem] xl:ml-[-13rem] mt-5 dark:text-white"
-    />
      {/* button for cv */}
      <button className="buttonDownload z-10 mt-[42rem] ml-[1rem] md:ml-[40rem]  lg:m-auto xl:mt-[20rem] lg:mt-[20rem] md:mt-[80rem] sm:mt-[30rem] xs:mt-[20rem]">Download CV</button>
       </div>
