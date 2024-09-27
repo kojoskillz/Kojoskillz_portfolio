@@ -2,7 +2,7 @@
  import React from "react";
  import NumberTicker from "../components/magicui/number-ticker";
 
-export  function  NumberTickerDemo() {
+export default function  NumberTickerDemo() {
   return (
     <div className="mb-10 mt-16">
     <div className="whitespace-pre-wrap text-8xl m-auto xl:flex lg:flex md:flex sm:grid xs:grid grid place-content-center overflow-x-hidden overflow-y-hidden gap-10 font-medium tracking-tighter bg-black   text-white dark:text-white">
