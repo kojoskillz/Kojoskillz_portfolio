@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar";
 import SparklesPreview from "../components/Homepage";
-import NumberTickerDemo  from "../components/Number_ticker";
+// import NumberTickerDemo  from "../components/Number_ticker";
 import BlurInDemo from "../components/Blur_In";
 import TimelineDemo  from "../components/Timeline";
 import Technical_skills  from "../components/Technical_skills";
@@ -18,7 +18,7 @@ export default function Home() {
     <>
         <Navbar />
         <SparklesPreview />
-        <NumberTickerDemo />
+        {/* <NumberTickerDemo /> */}
         <GlobeDemo />
         <BentoGridSecondDemo />
         <BlurInDemo />
