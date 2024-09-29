@@ -17,9 +17,9 @@ const reviews = [
   },
   {
     name: "Kofi Newton",
-    username: "../app/assets/face3.jpg",
+    username: "kofi",
     body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://avatar.vercel.sh/john",
+    img: "../app/assets/face3.jpg",
   },
   {
     name: "Jane Asare",
