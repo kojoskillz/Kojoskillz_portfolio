@@ -9,6 +9,8 @@ import { AnimatedPinDemo } from "../components/Project_card";
 import { BentoGridSecondDemo } from "../components/Bento_Grid";
 import { GlobeDemo } from "../components/Globe";
 import '../app/globals.css';
+import GridPatternDashed from "../components/Dashedbg";
+// import AnimatedBeamMultipleOutputDemo from "../components/Animated_Beam";
 
 
 
@@ -20,7 +22,9 @@ export default function Home() {
         <SparklesPreview />
         {/* <NumberTickerDemo /> */}
         <GlobeDemo />
+        <GridPatternDashed />
         <BentoGridSecondDemo />
+        {/* <AnimatedBeamMultipleOutputDemo /> */}
         <BlurInDemo />
         <TimelineDemo />
         <Technical_skills />
