@@ -1,3 +1,4 @@
+import '../app/globals.css';
 import Navbar from "../components/Navbar";
 import SparklesPreview from "../components/Homepage";
 // import NumberTickerDemo  from "../components/Number_ticker";
@@ -8,8 +9,8 @@ import VortexDemo  from "../components/Vortex";
 import { AnimatedPinDemo } from "../components/Project_card";
 import { BentoGridSecondDemo } from "../components/Bento_Grid";
 import { GlobeDemo } from "../components/Globe";
-import '../app/globals.css';
 import GridPatternDashed from "../components/Dashedbg";
+import { MarqueeDemo } from "../components/Marquee";
 // import AnimatedBeamMultipleOutputDemo from "../components/Animated_Beam";
 
 
@@ -29,6 +30,7 @@ export default function Home() {
         <TimelineDemo />
         <Technical_skills />
         <AnimatedPinDemo />
+        <MarqueeDemo />
         <VortexDemo />
        
     </>
