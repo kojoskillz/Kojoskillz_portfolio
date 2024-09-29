@@ -167,7 +167,7 @@ const items = [
   {
     title: "The Art of Design",
     description: "Discover the beauty of thoughtful and functional design.",
-    header: <Skeleton3 />,
+    header3: <Skeleton3 />,
     className: "md:col-span-1",
     icon: <IconSignature className="h-4 w-4 text-cyan-300" />,
 
@@ -176,7 +176,7 @@ const items = [
     title: "The Power of Communication",
     description:
       "Understand the impact of effective communication in our lives.",
-    header: <Skeleton4 />,
+    header4: <Skeleton4 />,
     className: "md:col-span-2",
     icon: <IconTableColumn className="h-4 w-4 text-cyan-300" />,
   },
