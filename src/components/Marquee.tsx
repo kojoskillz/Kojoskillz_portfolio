@@ -1,13 +1,16 @@
+"use client";
 import { cn } from "@/lib/utils";
 import Marquee from "../components/ui/marquee";
 // import Image from 'next/image';
+// import face1 from "../app/assets/face1.jpg";
 
 const reviews = [
   {
     name: "Winner Otuosorochi",
     username: "@Holiboi",
     body: "I've never seen anything like this before. It's amazing. I love it.",
-    img: "../app/assets/face1.jpg",
+    img:"face1.jpg",
+    // img: {face1},
   },
   {
     name: "Jenny Benns",
@@ -85,7 +88,7 @@ export function MarqueeDemo() {
     <div className="relative flex h-[500px] w-full flex-col items-center justify-center overflow-hidden rounded-lg bg-black text-white md:shadow-xl">
      <div>
         <h1 className="text-white text-center xl:mt-[5rem] -mt-[6rem] text-3xl xl:text-5xl lg:text-5xl md:text-3xl font-bold mb-5" >
-           <span className="text-cyan-300 "> Feeback </span>  from my clients
+           <span className="text-cyan-300 "> Feedback </span>  from my clients
         </h1>
      </div>
      
