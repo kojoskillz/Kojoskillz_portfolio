@@ -1,9 +1,9 @@
 "use client";
 import { cn } from "@/lib/utils";
 import React from "react";
-import { Novatrix } from "uvcanvas";
 import Globe from "../components/magicui/globe";
 import GridPattern from "../components/ui/grid-pattern";
+import { TextHoverEffect } from "../components/ui/text-hover-effect";
 import { BentoGrid, BentoGridItem } from "./ui/bento-grid";
 import {
   IconClipboardCopy,
@@ -14,6 +14,7 @@ import {
 import BlurIn from "./magicui/blur-in";
 import img1 from "../app/assets/img.png"
 import Image from 'next/image';
+
 
 export function BentoGridSecondDemo() {
   return (
@@ -93,7 +94,7 @@ const Skeleton2 = () => (
             word=" "
             className="font-semi-bold text-slate-500  dark:text-slate-500"
           />
-          <Novatrix />
+          
 
       </div>
             
@@ -103,14 +104,14 @@ const Skeleton2 = () => (
   </div>
 
 );
-
-const Skeleton3 = () => (
-  <div className=" relative grid  h-full w-[10rem] max-w-[32rem] items-center justify-center overflow-hidden bg-background  px-[11rem] xl:px-[8rem] md:px-[28rem] sm:px-40 pb-[11rem]  xl:-pb-[10rem] lg:-pb-[10rem]  pt-8 md:pb-30 md:shadow-xl  min-h-[6rem] rounded-xl   
-  dark:bg-dot-white/[0.2] bg-dot-black/[0.2]  border border-transparent dark:border-white/[0.2] bg-black dark:bg-black">
-  
-
    
-      
+const Skeleton3 = () => (
+  <div className=" relative grid  h-full w-[10rem] max-w-[32rem] items-center justify-center overflow-hidden bg-background  px-[11rem] xl:px-[8rem] md:px-[28rem] sm:px-40 pb-[5rem]  xl:-pb-[10rem] lg:-pb-[10rem]  pt-8 md:pb-30 md:shadow-xl  min-h-[6rem] rounded-xl   
+    dark:bg-dot-white/[0.2] bg-dot-black/[0.2]  border border-transparent dark:border-white/[0.2] bg-black dark:bg-black" >
+       <div className="w-[20rem] fit-content ">
+         <TextHoverEffect text="IMAGINE IT" />
+       </div>
+     
   </div>
 
 );
@@ -151,7 +152,7 @@ const Skeleton4 = () => (
 );
 const items = [
   {
-    title: "The Dawn of Innovation",
+    title: "Meet The Creator",
     description: "Explore the birth of groundbreaking ideas and inventions.",
     header: <Skeleton />,
     className: "md:col-span-2",
@@ -170,14 +171,18 @@ const items = [
     header3: <Skeleton3 />,
     className: "md:col-span-1",
     icon: <IconSignature className="h-4 w-4 text-cyan-300" />,
-
   },
   {
-    title: "The Power of Communication",
+    title: "Imagine it, I create",
     description:
-      "Understand the impact of effective communication in our lives.",
+      "I bring your imagination into reality.",
     header4: <Skeleton4 />,
     className: "md:col-span-2",
     icon: <IconTableColumn className="h-4 w-4 text-cyan-300" />,
   },
 ];
+
+
+
+
+
