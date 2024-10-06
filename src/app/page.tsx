@@ -11,7 +11,7 @@ import { BentoGridSecondDemo } from "../components/Bento_Grid";
 import { GlobeDemo } from "../components/Globe";
 import GridPatternDashed from "../components/Dashedbg";
 import { MarqueeDemo } from "../components/Marquee";
-// import AnimatedBeamMultipleOutputDemo from "../components/Animated_Beam";
+import TextHoverEffectDemo from '../components/Texthover';
 
 
 
@@ -21,11 +21,11 @@ export default function Home() {
     <>
         <Navbar />
         <SparklesPreview />
+        <TextHoverEffectDemo />
         {/* <NumberTickerDemo /> */}
         <GlobeDemo />
         <GridPatternDashed />
         <BentoGridSecondDemo />
-        {/* <AnimatedBeamMultipleOutputDemo /> */}
         <BlurInDemo />
         <TimelineDemo />
         <Technical_skills />
