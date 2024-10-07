@@ -3,7 +3,7 @@ import { cn } from "@/lib/utils";
 import React from "react";
 import Globe from "../components/magicui/globe";
 import GridPattern from "../components/ui/grid-pattern";
-import { TextHoverEffect } from "../components/ui/text-hover-effect";
+import { BackgroundGradientAnimation } from "./ui/background-gradient-animation";
 import { BentoGrid, BentoGridItem } from "./ui/bento-grid";
 import {
   IconClipboardCopy,
@@ -106,12 +106,18 @@ const Skeleton2 = () => (
 );
    
 const Skeleton3 = () => (
-  <div className=" relative grid  h-full w-[10rem] max-w-[32rem] items-center justify-center overflow-hidden bg-background  px-[11rem] xl:px-[8rem] md:px-[28rem] sm:px-40 pb-[5rem]  xl:-pb-[10rem] lg:-pb-[10rem]  pt-8 md:pb-30 md:shadow-xl  min-h-[6rem] rounded-xl   
-    dark:bg-dot-white/[0.2] bg-dot-black/[0.2]  border border-transparent dark:border-white/[0.2] bg-black dark:bg-black" >
-       <div className="w-[20rem] fit-content ">
-         <TextHoverEffect text="IMAGINE IT" />
-       </div>
+  <div className=" relative grid place-content-center h-[20rem] w-[9rem] max-w-[31rem] items-center justify-center overflow-hidden bg-background  px-[11rem] xl:px-[8rem] md:px-[28rem] sm:px-40 pb-[5rem]  xl:-pb-[10rem] lg:-pb-[10rem]  pt-8 md:pb-30 md:shadow-xl  min-h-[6rem] rounded-xl   
+     dark:bg-dot-white/[0.2] bg-dot-black/[0.2]  border border-transparent dark:border-white/[0.2] bg-black dark:bg-black" >
+       <BackgroundGradientAnimation className="h-fit-cover md:px-10 m-auto">
+      <div className="absolute z-50 inset-0 flex items-center justify-center text-white font-bold px-4 pointer-events-none fit-content text-5xl text-center md:text-5xl lg:text-3xl">
+        <p className="bg-clip-text text-transparent drop-shadow-2xl bg-gradient-to-b from-white/80 to-white/20">
+          Just Imagine It
+        </p>
+      </div>
+    </BackgroundGradientAnimation>
      
+
+
   </div>
 
 );
