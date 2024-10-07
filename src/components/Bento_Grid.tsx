@@ -106,7 +106,7 @@ const Skeleton2 = () => (
 );
    
 const Skeleton3 = () => (
-  <div className=" relative grid place-content-center h-[20rem] w-[9rem] max-w-[31rem] items-center justify-center overflow-hidden bg-background  px-[11rem] xl:px-[8rem] md:px-[28rem] sm:px-40 pb-[5rem]  xl:-pb-[10rem] lg:-pb-[10rem]  pt-8 md:pb-30 md:shadow-xl  min-h-[6rem] rounded-xl   
+  <div className=" relative grid place-content-center h-[20rem] w-[10rem] max-w-[32rem] items-center justify-center overflow-hidden bg-background  px-[11rem] xl:px-[8rem] md:px-[28rem] sm:px-40 pb-[5rem]  xl:-pb-[10rem] lg:-pb-[10rem]  pt-8 md:pb-30 md:shadow-xl  min-h-[6rem] rounded-xl   
      dark:bg-dot-white/[0.2] bg-dot-black/[0.2]  border border-transparent dark:border-white/[0.2] bg-black dark:bg-black" >
        <BackgroundGradientAnimation className="h-fit-cover md:px-10 m-auto">
       <div className="absolute z-50 inset-0 flex items-center justify-center text-white font-bold px-4 pointer-events-none fit-content text-5xl text-center md:text-5xl lg:text-3xl">
