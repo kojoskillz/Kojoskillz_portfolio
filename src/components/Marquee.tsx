@@ -17,25 +17,25 @@ const reviews = [
     name: "Kofi Newton",
     username: "@kofi",
     body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "../app/assets/face3.jpg",
+    // img: "../app/assets/face3.jpg",
   },
   {
     name: "Jane Asare",
     username: "@jane",
     body: "I'm impressed with the works of Kojoskillz.",
-    img: "../app/assets/face5.jpg",
+    // img: "../app/assets/face5.jpg",
   },
   {
     name: "Jenny Grace",
     username: "@jenny",
     body: "Need stunning web applications. Kwadwo is your plug.",
-    img: "../app/assets/face7.jpg",
+    // img: "../app/assets/face7.jpg",
   },
   {
     name: "Ken Jao",
     username: "@ken",
     body: "Perfect piece of work.",
-    img: "../app/assets/face6.jpg",
+    // img: "../app/assets/face6.jpg",
   },
 ];
 
@@ -43,7 +43,6 @@ const firstRow = reviews.slice(0, reviews.length / 2);
 const secondRow = reviews.slice(reviews.length / 2);
 
 const ReviewCard = ({
-  img,
   name,
   username,
   body,
@@ -59,7 +58,7 @@ const ReviewCard = ({
       className={cn(
         "relative w-64 cursor-pointer overflow-hidden p-4",
         // light styles
-        "border-gray-400/10 bg-slate-950/40 border-[.5px] rounded-lg hover:bg-gray-950/[.05]",
+        "border-gray-400/10 bg-slate-950/30 border-[.5px] rounded-lg hover:bg-gray-950/[.05]",
         // dark styles
         "dark:border-gray-50/[.1] dark:bg-gray-50/[.10] dark:hover:bg-gray-50/[.15]",
       )}
