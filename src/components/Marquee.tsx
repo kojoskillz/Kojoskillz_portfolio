@@ -1,15 +1,13 @@
 "use client";
 import { cn } from "@/lib/utils";
 import Marquee from "../components/ui/marquee";
-// import Image from 'next/image';
-// import face1 from "../app/assets/face1.jpg";
 
 const reviews = [
   {
     name: "Winner Otuosorochi",
     username: "@Holiboi",
     body: "I've never seen anything like this before. It's amazing. I love it.",
-    // img: {face1},
+    img: "https://drive.google.com/file/d/1H6dJay0e8VyOb21NqXIvrfse8p8gp6em/view?usp=drivesdk",
   },
   {
     name: "Jenny Benns",
@@ -20,7 +18,7 @@ const reviews = [
     name: "Kofi Newton",
     username: "kofi",
     body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "/app/assets/face3.jpg",
+    img: "../app/assets/face3.jpg",
   },
   {
     name: "Jane Asare",
