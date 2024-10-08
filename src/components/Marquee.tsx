@@ -9,20 +9,18 @@ const reviews = [
     name: "Winner Otuosorochi",
     username: "@Holiboi",
     body: "I've never seen anything like this before. It's amazing. I love it.",
-    img:"face1.jpg",
     // img: {face1},
   },
   {
     name: "Jenny Benns",
     username: "@jen",
     body: "I don't know what to say. I'm speechless. This is amazing.",
-    img: "../app/assets/face2.jpg",
   },
   {
     name: "Kofi Newton",
     username: "kofi",
     body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "../app/assets/face3.jpg",
+    img: "/app/assets/face3.jpg",
   },
   {
     name: "Jane Asare",
@@ -53,7 +51,7 @@ const ReviewCard = ({
   username,
   body,
 }: {
-  img: string;
+  img?: string;
   name: string;
   username: string;
   body: string;
