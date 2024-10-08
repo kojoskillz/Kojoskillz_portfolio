@@ -11,7 +11,6 @@ import { BentoGridSecondDemo } from "../components/Bento_Grid";
 import { GlobeDemo } from "../components/Globe";
 import GridPatternDashed from "../components/Dashedbg";
 import { MarqueeDemo } from "../components/Marquee";
-import BackgroundGradientAnimationDemo from '../components/Bg-Gradient';
 
 
 
@@ -25,7 +24,6 @@ export default function Home() {
         <GlobeDemo />
         <GridPatternDashed />
         <BentoGridSecondDemo />
-        <BackgroundGradientAnimationDemo />
         <BlurInDemo />
         <TimelineDemo />
         <Technical_skills />
