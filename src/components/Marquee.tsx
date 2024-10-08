@@ -7,7 +7,6 @@ const reviews = [
     name: "Winner Otuosorochi",
     username: "@Holiboi",
     body: "I've never seen anything like this before. It's amazing. I love it.",
-    img: "https://drive.google.com/file/d/1H6dJay0e8VyOb21NqXIvrfse8p8gp6em/view?usp=drivesdk",
   },
   {
     name: "Jenny Benns",
@@ -16,7 +15,7 @@ const reviews = [
   },
   {
     name: "Kofi Newton",
-    username: "kofi",
+    username: "@kofi",
     body: "I'm at a loss for words. This is amazing. I love it.",
     img: "../app/assets/face3.jpg",
   },
@@ -49,7 +48,7 @@ const ReviewCard = ({
   username,
   body,
 }: {
-  img?: string;
+  img: string;
   name: string;
   username: string;
   body: string;
@@ -66,7 +65,7 @@ const ReviewCard = ({
       )}
     >
       <div className="flex flex-row items-center gap-2">
-        <img className="rounded-full" width="32" height="32" alt="" src={img} />
+        {/* <img className="rounded-full" width="32" height="32" alt="" src={img} /> */}
         <div className="flex flex-col">
           <figcaption className="text-sm font-medium dark:text-white">
             {name}
