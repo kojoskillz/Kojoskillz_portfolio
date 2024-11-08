@@ -3,6 +3,7 @@ import React from "react";
 import { PinContainer } from "../components/ui/3d-pin";
 import Image from 'next/image';
 import img2 from "../app/assets/Casfis_P1.png";
+import img3 from "../app/assets/pro-listing.png";
 
 export function AnimatedPinDemo() {
   return (
@@ -69,7 +70,7 @@ export function AnimatedPinDemo() {
       >
         <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[23rem] xl:w-[35rem] xl:h-[30rem]"> 
         <Image 
-            src={img2}
+            src={img3}
             alt="my_profile_pic"
             width="900"
             height="900"
@@ -77,7 +78,7 @@ export function AnimatedPinDemo() {
            
           />
              <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
-               Casfis Restaurant
+              Pro-Listing 
              </h3>
            <span className="text-slate-300 ">
               Casfis Restaurant is a landing page site where customers can conveniently
