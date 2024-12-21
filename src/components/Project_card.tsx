@@ -65,8 +65,8 @@ export function AnimatedPinDemo() {
       </PinContainer>
 
       <PinContainer
-        title="/ui.aceternity.com"
-        href="https://twitter.com/mannupaaji"
+        title="pro-listing"
+        href="  http://pro-listing.onrender.com"
       >
         <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[23rem] xl:w-[35rem] xl:h-[30rem]"> 
         <Image 
@@ -81,8 +81,7 @@ export function AnimatedPinDemo() {
               Pro-Listing 
              </h3>
            <span className="text-slate-300 ">
-              Casfis Restaurant is a landing page site where customers can conveniently
-              make reservations, browse menus, and securely purchase meals using payment vouchers.
+              Pro-listing is a landing page where we list your crypto coins
             </span>
             <p className="text-white flex pt-3 font-light text-sm">
               <span className="text-cyan-300 font-semi-bold">Tech Stack:</span> Html, Css, Javascript
@@ -107,8 +106,8 @@ export function AnimatedPinDemo() {
 
      
       <PinContainer
-        title="/ui.aceternity.com"
-        href="https://twitter.com/mannupaaji"
+        title="EduTrack"
+        href="https://edutrack-z68j.onrender.com "
       >
         <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[23rem] xl:w-[35rem] xl:h-[30rem]"> 
         <Image 
@@ -120,11 +119,11 @@ export function AnimatedPinDemo() {
            
           />
              <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
-               Casfis Restaurant
+               EduTrack
              </h3>
            <span className="text-slate-300 ">
-              Casfis Restaurant is a landing page site where customers can conveniently
-              make reservations, browse menus, and securely purchase meals using payment vouchers.
+              Your All-In-One-Platform with Endless Possibilities,simplify school operations enhance student success,
+              We unify your schools ecosystem with our comprehensive management solutions.
             </span>
             <p className="text-white flex pt-3 font-light text-sm">
               <span className="text-cyan-300 font-semi-bold">Tech Stack:</span> Html, Css, Javascript
@@ -147,50 +146,6 @@ export function AnimatedPinDemo() {
         </div>
       </PinContainer>
 
-     
-      <PinContainer
-        title="/ui.aceternity.com"
-        href="https://twitter.com/mannupaaji"
-      >
-        <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[23rem] xl:w-[35rem] xl:h-[30rem]"> 
-        <Image 
-            src={img2}
-            alt="my_profile_pic"
-            width="900"
-            height="900"
-            sizes="fit-content"
-           
-          />
-             <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
-               Casfis Restaurant
-             </h3>
-           <span className="text-slate-300 ">
-              Casfis Restaurant is a landing page site where customers can conveniently
-              make reservations, browse menus, and securely purchase meals using payment vouchers.
-            </span>
-            <p className="text-white flex pt-3 font-light text-sm">
-              <span className="text-cyan-300 font-semi-bold">Tech Stack:</span> Html, Css, Javascript
-            </p>
-
-             {/* source_code & livepreview */}
-             
-             {/* live_preview */}
-             <div className="flex gap-2">
-                <a href="">
-                    <p className=' btnX  cursor-pointer text-sm'>live preview</p>
-                </a>
-                
-                {/* source_code */}
-                <a href="">
-                    <p className=' btnY cursor-pointer text-sm'>source code</p>
-                </a>
-             
-          </div>
-        </div>
-      </PinContainer>
-
-     
-      
 
     </div>
     </div>
