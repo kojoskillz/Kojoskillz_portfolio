@@ -85,7 +85,7 @@ export function AnimatedPinDemo() {
               Pro-listing is a landing page where we list your crypto coins
             </span>
             <p className="text-white flex pt-3 font-light text-sm">
-              <span className="text-cyan-300 font-semi-bold">Tech Stack:</span> Html, Css, Javascript
+              <span className="text-cyan-300 font-semi-bold">Tech Stack:</span> Nextjs,Reactjs,Tailwindcss
             </p>
 
              {/* source_code & livepreview */}
@@ -126,7 +126,7 @@ export function AnimatedPinDemo() {
               Your All-In-One-Platform with Endless Possibilities,simplify school operations enhance student success.
             </span>
             <p className="text-white flex pt-3 font-light text-sm">
-              <span className="text-cyan-300 font-semi-bold">Tech Stack:</span> Html, Css, Javascript
+              <span className="text-cyan-300 font-semi-bold">Tech Stack:</span> Nextjs,Reactjs,Tailwindcss
             </p>
 
              {/* source_code & livepreview */}
