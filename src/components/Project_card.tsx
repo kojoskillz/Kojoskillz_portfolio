@@ -123,8 +123,7 @@ export function AnimatedPinDemo() {
                EduTrack
              </h3>
            <span className="text-slate-300 ">
-              Your All-In-One-Platform with Endless Possibilities,simplify school operations enhance student success,
-              We unify your schools ecosystem with our comprehensive management solutions.
+              Your All-In-One-Platform with Endless Possibilities,simplify school operations enhance student success.
             </span>
             <p className="text-white flex pt-3 font-light text-sm">
               <span className="text-cyan-300 font-semi-bold">Tech Stack:</span> Html, Css, Javascript
