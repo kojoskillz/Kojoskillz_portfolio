@@ -4,6 +4,7 @@ import { PinContainer } from "../components/ui/3d-pin";
 import Image from 'next/image';
 import img2 from "../app/assets/Casfis_P1.png";
 import img3 from "../app/assets/pro-listing.png";
+import img4 from "../app/assets/edutrack.png";
 
 export function AnimatedPinDemo() {
   return (
@@ -111,7 +112,7 @@ export function AnimatedPinDemo() {
       >
         <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[23rem] xl:w-[35rem] xl:h-[30rem]"> 
         <Image 
-            src={img2}
+            src={img4}
             alt="my_profile_pic"
             width="900"
             height="900"
